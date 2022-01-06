@@ -26,6 +26,5 @@ sleep(3)
 send_button = driver.find_element_by_xpath('//span[@data-icon="send"]')
 send_button.click()
 
-# https://www.youtube.com/watch?v=x85ba0VYsYo
 # https://pypi.org/project/selenium/
 # the driver.exe should be with your python.exe

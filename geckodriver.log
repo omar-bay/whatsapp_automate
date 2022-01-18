@@ -74,3 +74,189 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1641665020627	geckodriver	INFO	Listening on 127.0.0.1:61845
+1641665023693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61846" "-no-remote" "-profile" "C:\\Users\\kikweina\\AppData\\Local\\Temp\\rust_mozprofileedkHu0"
+1641665024478	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kikweina\\AppData\\Local\\Temp\\rust_mozprofileedkHu0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61846/devtools/browser/1b03de05-bfd0-48b9-a7b6-7b49641b4b8b
+1641665028501	Marionette	INFO	Listening on port 61853
+1641665028583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.fa9b5ba408af1a3623ab.js, line 58: unreachable code after return statement
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 365: Error: Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 365: Error: Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)
+console.error: "Could not load device list: Empty cache for devtools.devices.url"
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 365: Error: Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 365: Error: Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 365: Error: Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "stylesheets: fetch failed for https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878."
+console.error: (new Error("Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: (new Error("Protocol error (Error): Failed to fetch https://web.whatsapp.com/bootstrap_qr-b73de5ee9feebb11c509.css. Code 2152398878. from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/shared/DevToolsUtils.js:556:16)", "resource://devtools/shared/protocol/Front.js", 365))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641665525061	Marionette	INFO	Stopped listening on port 61853
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642519891588	geckodriver	INFO	Listening on 127.0.0.1:53147
+1642519894710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53148" "-no-remote" "-profile" "C:\\Users\\kikweina\\AppData\\Local\\Temp\\rust_mozprofileI8tTk2"
+1642519895575	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kikweina\\AppData\\Local\\Temp\\rust_mozprofileI8tTk2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53148/devtools/browser/179b06d9-158a-4c18-8002-797c92654c1f
+1642519899718	Marionette	INFO	Listening on port 53154
+1642519900101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:849:3
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642519924317	Marionette	INFO	Stopped listening on port 53154
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

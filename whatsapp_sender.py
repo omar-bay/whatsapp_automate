@@ -2,13 +2,13 @@ from selenium import webdriver
 from time import sleep
 
 # driver = webdriver.Chrome()
-driver = webdriver.Firefox()
+# driver = webdriver.Firefox()
 # driver = webdriver.Edge()
+
 driver.get('https://web.whatsapp.com/')
 
 name = input('Enter the name of user or group : ')
 filepath = input('Enter your filepath : ')
-count = int(input('Enter the count : '))
 
 input('Enter anything after scanning QR code')
 

@@ -5,11 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import pyperclip
 import time
-
-browser = webdriver.Chrome(executable_path='C:/Users/kikweina/Desktop/whatsapp_automate/drivers/chromedriver.exe')
-
-browser.maximize_window()
-browser.get('https://web.whatsapp.com/')
+from config import CHROME_PROFILE_PATH
 
 with open('groups.txt', 'r', encoding='utf8') as file:
     groups = [group.strip() for group in file.readlines()]
@@ -18,6 +14,14 @@ with open('msg.txt', 'r', encoding='utf8') as file:
     msg = file.read()
 
 doc_path = 'C:/Users/kikweina/Desktop/whatsapp_automate/dress_invoice.pdf'
+
+options = webdriver.ChromeOptions()
+options.add_argument(CHROME_PROFILE_PATH)
+
+browser = webdriver.Chrome(
+    executable_path='C:/Users/kikweina/Desktop/whatsapp_automate/drivers/chromedriver.exe', options=options)
+browser.maximize_window()
+browser.get('https://web.whatsapp.com/')
 
 for group in groups:
     # search group
@@ -59,7 +63,10 @@ for group in groups:
         doc_box = browser.find_element_by_xpath(doc_xpath)
         doc_box.send_keys(doc_path)
         time.sleep(5)
-        send_button = browser.find_element_by_xpath('//div[@role="button"][@aria-label="Send"]')
+        send_xpath = '//div[@role="button"][@aria-label="Send"]'
+        send_button = WebDriverWait(browser, 500).until(
+            EC.presence_of_element_located((By.XPATH, send_xpath))
+        )
         send_button.click()
     except:
         pass

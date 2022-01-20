@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 import pyperclip
 import time
 
-browser = webdriver.Chrome(executable_path='C:/Users/kikweina/Desktop/whatsapp-Auto/drivers/chromedriver.exe')
+browser = webdriver.Chrome(executable_path='C:/Users/kikweina/Desktop/whatsapp_automate/drivers/chromedriver.exe')
 
 browser.maximize_window()
 browser.get('https://web.whatsapp.com/')
@@ -16,6 +16,8 @@ with open('groups.txt', 'r', encoding='utf8') as file:
 
 with open('msg.txt', 'r', encoding='utf8') as file:
     msg = file.read()
+
+doc_path = 'C:/Users/kikweina/Desktop/whatsapp_automate/dress_invoice.pdf'
 
 for group in groups:
     # search group
@@ -43,3 +45,21 @@ for group in groups:
     pyperclip.copy(msg)
     input_box.send_keys(Keys.CONTROL + "v")
     input_box.send_keys(Keys.ENTER)
+
+    # open attachment
+    attachment_xpath = '//div[@role="button"][@title="Attach"]'
+    attachment_box = browser.find_element_by_xpath(attachment_xpath)
+    attachment_box.click()
+
+    time.sleep(1)
+
+    # select doc & send
+    try:
+        doc_xpath = '//input[@type="file"][@accept="*"]'
+        doc_box = browser.find_element_by_xpath(doc_xpath)
+        doc_box.send_keys(doc_path)
+        time.sleep(5)
+        send_button = browser.find_element_by_xpath('//div[@role="button"][@aria-label="Send"]')
+        send_button.click()
+    except:
+        pass

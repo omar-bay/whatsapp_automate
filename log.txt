@@ -1,0 +1,9 @@
+https://selenium-python.readthedocs.io/
+
+pip install selenium
+
+check your chrome version and install its driver from 
+https://chromedriver.chromium.org/downloads
+
+to copy paste into clipboard for names
+pip install pyperclip
